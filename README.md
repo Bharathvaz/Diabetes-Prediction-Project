@@ -5,11 +5,9 @@
 **Research question:** Which demographic, behavioural, and healthcare-access factors predict diabetes among US adults?
 
 **Team:** <!-- TODO: add names -->
-- Member 1 — Tableau dashboard (built + presenting)
-- Member 2 — EDA notebook
+- Ayush Gajbhiye — Tableau dashboard (built + presenting)
+- Syam Prasad Thota — EDA notebook
 - Bharathvaz Reddy Narravula — verification & data prep
-- Member 3 — dataset & cleaning
-- All members — slides, rehearsal, Q&A
 
 ---
 
@@ -21,7 +19,7 @@ continuous US health survey.
 - Raw: **457,670 respondents × 301 columns** (SAS XPORT, `LLCP2024.XPT`)
 - Cleaned: **456,587 rows × 30 columns** (`brfss2024_diabetes_eda_clean.csv`)
 - Target: `diabetes_status` — **Yes (14.4%) / No diabetes (83.1%) / Pre-diabetes or borderline (2.5%)**
-- Source: CDC BRFSS annual data, 2024 — <https://www.cdc.gov/brfss/annual_data/annual_data.htm>
+- Source: CDC BRFSS annual data, 2024 — <https://www.cdc.gov/brfss/annual_data/annual_data.html>
 
 The cleaned CSV (~130 MB) is not stored in this repo — GitHub rejects files over 100 MB.
 It is regenerated from the raw CDC file by the notebook (see `data/README.md`).
@@ -32,16 +30,11 @@ It is regenerated from the raw CDC file by the notebook (see `data/README.md`).
 
 ```
 ├── README.md
-├── notebooks/
-│   └── Lab_Project_2_EDA.ipynb      # 89 cells, 29 figures — the full EDA, executed end-to-end
-├── data/
-│   └── README.md                    # data provenance and regeneration notes
-├── tableau/
-│   └── Lab_Project__1__1_jw83.twbx   # packaged dashboard (data bundled, opens anywhere)
-├── presentation/
-│   └── DATA230_Mid_Presentation_Diabetes_BRFFS2024.pptx
-└── docs/
-    └── DATA230_EDA_Study_Guide.pdf  # act-by-act walkthrough + Q&A prep
+├── Lab_Project_2_EDA.ipynb      # 89 cells, 29 figures — the full EDA, executed end-to-end
+├── README.md                    # data provenance and regeneration notes
+├── Lab_Project__1__1_jw83.twbx   # packaged dashboard (data bundled, opens anywhere)
+└── DATA230_EDA_Study_Guide.pdf  # act-by-act walkthrough + Q&A prep
+ 
 ```
 
 ---
@@ -103,7 +96,7 @@ on **interpretation, not accuracy**: confusion matrix, ROC, feature importance, 
 ## Roadmap
 
 - [x] Dataset selected & cleaned (456,587 × 30)
-- [x] EDA complete (89 cells, 29 figures, ≥6 presentation visuals)
+- [x] EDA complete (89 cells, 29 figures)
 - [x] Tableau dashboard built
 - [x] Mid-presentation slides (9 Oct 2026)
 - [ ] Final model + interpretation (4 Dec 2026)
