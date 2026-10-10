@@ -7,7 +7,7 @@
 **Team:** <!-- TODO: add names -->
 - Ayush Gajbhiye — Tableau dashboard (built + presenting)
 - Syam Prasad Thota — EDA notebook
-- Bharathvaz Reddy Narravula — verification & data prep
+- Bharathvaz Reddy Narravula — Data cleaning and EDA analysis
 
 ---
 
@@ -32,8 +32,8 @@ It is regenerated from the raw CDC file by the notebook (see `data/README.md`).
 ├── README.md
 ├── Lab_Project_2_EDA.ipynb      # 89 cells, 29 figures — the full EDA, executed end-to-end
 ├── README.md                    # data provenance and regeneration notes
-├── Lab_Project__1__1_jw83.twbx   # packaged dashboard (data bundled, opens anywhere)
-└── DATA230_EDA_Study_Guide.pdf  # act-by-act walkthrough + Q&A prep
+└── Lab_Project__1__1_jw83.twbx   # packaged dashboard (data bundled, opens anywhere)
+
  
 ```
 
